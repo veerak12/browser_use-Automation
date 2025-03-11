@@ -1,0 +1,17 @@
+id: TC_UI_003
+title: Sign Out from Account
+steps:
+  - Navigate to https://magento.softwaretestingboard.com
+  - Wait for 15 seconds
+  - Check for a cookie banner and click "Accept" if it exists
+  - Click on the "Sign In" link
+  - Wait for 5 seconds
+  - Enter "dibewik711@oziere.com" in the Email field
+  - Enter "Password@321" in the Password field
+  - Click on the "Sign In" button
+  - Wait for 5 seconds
+  - Click on the user profile icon
+  - Click on the "Sign Out" option
+  - Wait for 5 seconds
+  - Verify that the sign-out was successful
+  - If successful, mark as Passed; otherwise, mark as Failed

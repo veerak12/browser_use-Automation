@@ -1,0 +1,8 @@
+id: TC_UI_999
+title: Verify Non-Existent Button
+steps:
+  - Navigate to https://magento.softwaretestingboard.com
+  - Wait for 10 seconds
+  - Attempt to check the "America" text in the home page
+  - Verify that the text is present or not (without scraping the page)
+  - If the text is not present, mark it as a Failed test case   

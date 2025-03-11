@@ -1,0 +1,17 @@
+id: TC_UI_001
+title: Create New User Account
+steps:
+  - Navigate to https://magento.softwaretestingboard.com
+  - Wait for 15 seconds
+  - Check for a cookie banner and click "Accept" if it exists
+  - Check for "Create an Account" link If exists Click on it.
+  - Wait for 5 seconds
+  - Enter "testC_case" in the First Name field
+  - Enter "verify" in the Last Name field
+  - Enter "fikal70004@payposs.com" in the Email field
+  - Enter "Password@321" in the Password field
+  - Enter "Password@321" in the Password Confirmation field
+  - Click on the "Create Account" button
+  - Wait for 5 seconds
+  - If the page is redirected and showing "Thank you for registering with Main Website Store." in the redirected Page.
+  - Verify that the account creation was successful. and mark it as Passed; otherwise, mark as Failed.

@@ -1,0 +1,15 @@
+id: TC_UI_002
+title: Sign In with Created Account
+steps:
+  - Navigate to https://magento.softwaretestingboard.com
+  - Wait for 15 seconds
+  - Check for a cookie banner and click "Accept" if it exists
+  - Click on the "Sign In" link
+  - Wait for 5 seconds
+  - Enter "dibewik711@oziere.com" in the Email field
+  - Enter "Password@321" in the Password field
+  - Enter the same password in the Confirm Password field
+  - Click on the "Sign In" button
+  - Wait for 5 seconds
+  - Verify that the sign-in was successful
+  - If successful, mark as Passed; otherwise, mark as Failed
